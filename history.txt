@@ -1,0 +1,97 @@
+    1  sudo apt update
+    2  sudo apt full-upgrade
+    3  clear
+    4  sudo apt install git
+    5  git --version
+    6  git config --global user.name "mpfarise"
+    7  git config --global user.email "ephraimmpfariseni@gmail.com"
+    8  git clone https://github.com/Umuzi-org/EphraimMpfariseni-Mphaphuli-394-bash-for-bootcamp-.git
+    9  ls
+   10  mkdir git-basic-exercises
+   11  cd git-basic-exercises
+   12  ls -a
+   13  git init
+   14  git status
+   15  ls
+   16  git init
+   17  ls -a
+   18  rm -r .
+   19  rm -r "..'
+   20  q
+   21  ls
+   22  exit
+   23  returm
+   24  n
+   25  cer
+   26  cd git-basic-exercises
+   27  ls -a
+   28  rm -r .git
+   29  ls
+   30  git init 
+   31  ls -a
+   32  git status
+   33  touch README.md
+   34  ls -a
+   35  git status
+   36  git log
+   37  git add  <README.md>
+   38  git add
+   39  git add .
+   40  git status
+   41  git reset
+   42  ls
+   43  git reset HEAD path/to/your/file.ext
+   44  clear
+   45  ls
+   46  ls -a
+   47  git reset
+   48  rm -r README.md
+   49  ls -a
+   50  vi README.md
+   51  rm -r README.md
+   52  touch README.md
+   53  git add .
+   54  git status
+   55  git commit -m "initial commit"
+   56  git log
+   57  q
+   58  clear
+   59  nano README.md
+   60  cat README.md
+   61  git status
+   62  git commit -m "second commit"
+   63  git add .
+   64  git commit -m "second commit"
+   65  nano README.md
+   66  git add .
+   67  git commit -m "third commit"
+   68  git log
+   69  q
+   70  git checkout
+   71  64285d6e291be4264a8f807b6d0289908158eae8
+   72  git checkout
+   73  git checkout 64285d6e291be4264a8f807b6d0289908158eae8
+   74  cat README.md
+   75  git checkout main
+   76  cat REDME.md
+   77  clear
+   78  cat README.md
+   79  git branch
+   80  git checkout -b milkshake-flavours
+   81  git branch
+   82  git checkout master
+   83  git checkout milkshake-flavours
+   84  nano milkshakes.md
+   85  git status
+   86  nano milkshakes.md
+   87  git status
+   88  gt add .
+   89  git add .
+   90  git commit -m "added initial flavours"
+   91  git log
+   92  git checkout master
+   93  git log
+   94  git checkout -b history
+   95  git log
+   96  git branch
+   97  history > history.txt
